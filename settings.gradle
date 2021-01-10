@@ -1,0 +1,2 @@
+rootProject.name='Maple_name_maker'
+include ':app'

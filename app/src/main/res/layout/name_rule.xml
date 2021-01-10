@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="메이플스토리 닉네임 규정"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/many_character_2"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1) 한글, 영문, 숫자만 이용 가능"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="  * 단, 한글 자음 혹은 모음을 단독 사용할 수 없음"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="2) 한글 기준 2 ~ 6자, 영문/숫자 기준 4 ~ 12자 이용 가능하며, 혼합 이용 가능"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:lineSpacingExtra="8dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="3) 길드 이름 규칙에도 동일하게 적용"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:lineSpacingExtra="8dp"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="메이플스토리 펫, 안드로이드 닉네임 규정"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pet_img"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1) 한글, 영문, 숫자만 이용 가능"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="  * 단, 한글 자음 혹은 모음을 단독 사용할 수 없음"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="2) 문자와 문자 사이의 공백을 1회 이용 가능"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:lineSpacingExtra="8dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="3) 한글 기준 2 ~ 6자, 영문/숫자 기준 4 ~ 12자 이용 가능하며, 혼합 이용 가능"
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:lineSpacingExtra="8dp"
+                android:layout_marginTop="20dp"
+                />
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

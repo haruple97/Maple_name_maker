@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 로고 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/logo"
+                android:layout_marginTop="30dp"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="안녕하세요, '닉네임 작명소' 앱 개발자 하루플스토리 입니다."
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:lineSpacingExtra="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="저는 메이플스토리를 플레이한지 어느덧 15년이 다되어 가는 유저 입니다."
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:lineSpacingExtra="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+
+            <!--  캐릭터 -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/character_1"
+                android:layout_gravity="center"
+                />
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ico_world_arcane"
+                    android:layout_marginRight="6dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="썬콜 Lv.245"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/seoul_namsan"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="하루플스토리"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/seoul_namsan"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="그동안 전 직업을 육성하였고 그때마다 닉네임 생성이 항상 고민되는 일이었습니다."
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:lineSpacingExtra="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/many_character"
+                android:layout_marginTop="30dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="이러한 불편을 덜어드리고자 메이플스토리 닉네임 규정에 최적화 된 닉네임 생성 프로그램을 개발하였습니다."
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:lineSpacingExtra="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="사용중에 불편하시거나 오류가 있다면 아래 개인 블로그에 댓글 남겨주시면 확인 후 수정하겠습니다."
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:lineSpacingExtra="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="다운로드 해주셔서 감사합니다."
+                android:textColor="#ffffff"
+                android:fontFamily="@font/seoul_namsan"
+                android:lineSpacingExtra="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="블로그"
+                    android:layout_margin="10dp"
+                    android:id="@+id/blog_btn"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="유튜브"
+                    android:layout_margin="10dp"
+                    android:id="@+id/youtube_btn"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
